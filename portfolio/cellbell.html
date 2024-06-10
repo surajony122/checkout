@@ -1,0 +1,1510 @@
+<div id="m-menu-drawer" class="m-menu-drawer" >
+    <div class="m-menu-drawer__backdrop"></div>
+    <div class="m-menu-drawer__wrapper">
+      <div class="m-menu-drawer__content open-submenu">
+        <ul class="m-menu-drawer__navigation m-menu-mobile">
+          
+            
+            
+              
+              
+            
+              <li class="m-menu-mobile__item" data-url="#">
+                <a href="#" class="m-menu-mobile__link" data-toggle-submenu="1">
+                  <span>Shop By</span>
+                </a>
+                <span class="m-menu-mobile__toggle-button" data-toggle-submenu="1">
+                  <svg fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg>
+                </span>
+                <div class="m-megamenu-mobile m-megamenu-mobile--level-1">
+                  <div class="m-megamenu-mobile__wrapper">
+                    <button class="m-menu-mobile__back-button" data-level="1">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17"><path fill="currentColor" d="M8.12109 15.9141c-.21093.1875-.41015.1875-.59765 0L.175781 8.53125c-.210937-.1875-.210937-.375 0-.5625L7.52344.585938c.1875-.1875.38672-.1875.59765 0l.70313.703122c.1875.1875.1875.38672 0 .59766L3.375 7.33594h11.9883c.2812 0 .4219.14062.4219.42187v.98438c0 .28125-.1407.42187-.4219.42187H3.375l5.44922 5.44924c.1875.2109.1875.4101 0 .5976l-.70313.7032z"></path></svg>
+                      <span>Shop By</span>
+                    </button>
+                    <ul class="m-submenu-mobile">
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="/collections/bar-stools" class="m-menu-mobile__link">
+                              <span>Profession</span>
+                            </a>
+  
+  
+  
+  
+  
+  
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bottom Drawer Example</title>
+      <link rel="stylesheet" href="styles.css">
+  
+  
+  
+      <style>
+         
+  
+          button {
+              padding: 10px 20px;
+              font-size: 16px;
+              cursor: pointer;
+          }
+  
+          .drawer {
+              position: fixed;
+              bottom: -100%;
+              left: 0;
+              width: 100%;
+              background-color: #FFF8F2;
+              box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+              transition: bottom 1s ease;
+              padding: 20px;
+              box-sizing: border-box;
+          }
+  
+          .drawer.open {
+              bottom: 0;
+          }
+  
+          ul.mn {
+      display: grid;
+      padding: 0;
+      gap: 5px;
+      /* flex-direction: column; */
+      grid-template-columns: 1fr 1fr;
+  }
+  
+          .mn li {
+              width: 100%;
+              text-align: center;
+              list-style: none;
+          }
+          .mn img{
+              border: 1px solid #FF9700;
+              border-radius: 5px;
+          }
+          .mn h1{
+              font-size: 15px;
+              text-decoration: none;
+          }
+          #closeDrawerButton {
+              position: absolute;
+              right: 5px;
+              padding: 5px 7px;
+      top: 2px;
+      border-radius: 50px;
+      font-size: 12px;
+  
+          }
+  
+        .m-menu-mobile__item>a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
+      padding: 12px 16px;
+      z-index: -1;
+      position: relative;
+  }
+      </style>
+      <button id="openDrawerButton">Open Drawer</button>
+  
+      <div id="drawer" class="drawer">
+          <button id="closeDrawerButton">
+            X
+          </button>
+  
+          <ul class="mn">
+              <li>
+                  <a href="">
+                      <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                          <h1>heading</h1>
+                  </a>
+              </li>
+              <li>
+                  <a href="">
+                      <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                          <h1>heading</h1>
+                  </a>
+              </li>
+              <li>
+                  <a href="">
+                      <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                          <h1>heading</h1>
+                  </a>
+              </li>
+              <li>
+                  <a href="">
+                      <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                          <h1>heading</h1>
+                  </a>
+              </li>
+              <li>
+                  <a href="">
+                      <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                          
+                  </a>
+              </li>
+          </ul>
+      </div>
+  
+      <script src="script.js"></script>
+      <script>
+          document.addEventListener('DOMContentLoaded', () => {
+              const openDrawerButton = document.getElementById('openDrawerButton');
+              const closeDrawerButton = document.getElementById('closeDrawerButton');
+              const drawer = document.getElementById('drawer');
+  
+              openDrawerButton.addEventListener('click', () => {
+                  drawer.classList.add('open');
+              });
+  
+              closeDrawerButton.addEventListener('click', () => {
+                  drawer.classList.remove('open');
+              });
+  
+              document.addEventListener('click', (event) => {
+                  if (!drawer.contains(event.target) && !openDrawerButton.contains(event.target)) {
+                      drawer.classList.remove('open');
+                  }
+              });
+          });
+  
+      </script>
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Shop By Price</span>
+                            </a>
+  
+  
+  
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Bottom drawer1 Example</title>
+                            <link rel="stylesheet" href="styles.css">
+                            
+                            
+                            
+                            <style>
+                               
+                            
+                                button {
+                                    padding: 10px 20px;
+                                    font-size: 16px;
+                                    cursor: pointer;
+                                }
+                            
+                                .drawer1 {
+                                    position: fixed;
+                                    bottom: -100%;
+                                    left: 0;
+                                    width: 100%;
+                                    background-color: #FFF8F2;
+                                    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+                                    transition: bottom 1s ease;
+                                    padding: 20px;
+                                    box-sizing: border-box;
+                                }
+                            
+                                .drawer1.open {
+                                    bottom: 0;
+                                }
+                            
+                                ul.mn {
+                            display: grid;
+                            padding: 0;
+                            gap: 5px;
+                            /* flex-direction: column; */
+                            grid-template-columns: 1fr 1fr;
+                            }
+                            
+                                .mn li {
+                                    width: 100%;
+                                    text-align: center;
+                                    list-style: none;
+                                }
+                                .mn img{
+                                    border: 1px solid #FF9700;
+                                    border-radius: 5px;
+                                }
+                                .mn h1{
+                                    font-size: 15px;
+                                    text-decoration: none;
+                                }
+                                #closedrawer1Button1 {
+                                    position: absolute;
+                                    right: 5px;
+                                    padding: 5px 7px;
+                            top: 2px;
+                            border-radius: 50px;
+                            font-size: 12px;
+                            
+                                }
+                            
+                              .m-menu-mobile__item>a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-grow: 1;
+                            padding: 12px 16px;
+                            z-index: -1;
+                            position: relative;
+                            }
+                            </style>
+                            <button id="opendrawer1Button">Open drawer1</button>
+                            
+                            <div id="drawer1" class="drawer1">
+                                <button id="closedrawer1Button1">
+                                  X
+                                </button>
+                            
+                                <ul class="mn">
+                                    <li>
+                                        <a href="">
+                                            <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                                                <h1>heading</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                                                <h1>heading</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                                                <h1>heading</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                                                <h1>heading</h1>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="https://shoppersfortune.com/cdn/shop/products/WhatsApp_Image_2018-07-31_at_1.12.59_PM_5.jpeg" alt="" width="100%">
+                                                
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            
+                            <script>
+                                document.addEventListener('DOMContentLoaded', () => {
+                                    const opendrawer1Button = document.getElementById('opendrawer1Button');
+                                    const closedrawer1Button = document.getElementById('closedrawer1Button1');
+                                    const drawer1 = document.getElementById('drawer1');
+                            
+                                    opendrawer1Button.addEventListener('click', () => {
+                                        drawer1.classList.add('open');
+                                    });
+                            
+                                    closedrawer1Button.addEventListener('click', () => {
+                                        drawer1.classList.remove('open');
+                                    });
+                            
+                                    document.addEventListener('click', (event) => {
+                                        if (!drawer1.contains(event.target) && !opendrawer1Button.contains(event.target)) {
+                                            drawer1.classList.remove('open');
+                                        }
+                                    });
+                                });
+                            
+                            </script>
+  
+  
+  
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Shop By Features</span>
+                            </a>
+  
+  
+  
+  
+  
+  
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Shop By Problem</span>
+                            </a>
+  
+  
+  
+  
+  
+  
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Shop By Height </span>
+                            </a>
+  
+  
+  
+  
+  
+ 
+
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Shop By Weight</span>
+                            </a>
+  
+  
+  
+  
+  
+  
+     
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                        </li>
+                        
+                        <li class="m-menu-mobile__item" data-url="#">
+                            <a href="#" class="m-menu-mobile__link" data-toggle-submenu="2">
+                              <span>Coming Soon</span>
+                            </a>
+  
+  
+  
+  
+  
+  
+    
+  <style> #deal {scroll-behavior: smooth;} .qMWqRG_tileNameContainer.tolstoy-tile-name-container {display: none;} </style>
+  
+  
+  
+  
+   
+  
+  
+  
+  
+                          
+                            
+                            <span class="m-menu-mobile__toggle-button" data-toggle-submenu="2">
+                              <svg fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg>
+                            </span>
+                            <div class="m-megamenu-mobile m-megamenu-mobile--level-2">
+                              <div class="m-megamenu-mobile__wrapper">
+                                <button class="m-menu-mobile__back-button" data-level="2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17"><path fill="currentColor" d="M8.12109 15.9141c-.21093.1875-.41015.1875-.59765 0L.175781 8.53125c-.210937-.1875-.210937-.375 0-.5625L7.52344.585938c.1875-.1875.38672-.1875.59765 0l.70313.703122c.1875.1875.1875.38672 0 .59766L3.375 7.33594h11.9883c.2812 0 .4219.14062.4219.42187v.98438c0 .28125-.1407.42187-.4219.42187H3.375l5.44922 5.44924c.1875.2109.1875.4101 0 .5976l-.70313.7032z"></path></svg>
+                                  <span>Coming Soon</span>
+                                </button>
+                                <ul class="m-submenu-mobile">
+                                  
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="https://cellbell.in/collections/bar-stools">
+    <a href="https://cellbell.in/collections/bar-stools" class="m-menu-mobile__link">
+      Bar stool
+    </a>
+    
+    
+  </li>
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="#">
+    <a href="#" class="m-menu-mobile__link">
+      Chair Covers
+    </a>
+    
+    
+  </li>
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="#">
+    <a href="#" class="m-menu-mobile__link">
+      Pillows
+    </a>
+    
+    
+  </li>
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="#">
+    <a href="#" class="m-menu-mobile__link">
+      WFH Accessories
+    </a>
+    
+    
+  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                        </li>
+                        
+                    </ul>
+                    
+                  </div>
+                </div>
+              </li>
+            
+          
+            
+            
+              
+              
+            
+              
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="/collections/office-chairs">
+    <a href="/collections/office-chairs" class="m-menu-mobile__link" data-toggle-submenu="1">
+      Office Chairs
+    </a>
+    
+      <span class="m-menu-mobile__toggle-button" data-toggle-submenu="1">
+        <svg fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg>
+      </span>
+    
+    
+      <div class="m-megamenu-mobile m-megamenu-mobile--level-1">
+        <div class="m-megamenu-mobile__wrapper">
+          <button class="m-menu-mobile__back-button" data-level="1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17"><path fill="currentColor" d="M8.12109 15.9141c-.21093.1875-.41015.1875-.59765 0L.175781 8.53125c-.210937-.1875-.210937-.375 0-.5625L7.52344.585938c.1875-.1875.38672-.1875.59765 0l.70313.703122c.1875.1875.1875.38672 0 .59766L3.375 7.33594h11.9883c.2812 0 .4219.14062.4219.42187v.98438c0 .28125-.1407.42187-.4219.42187H3.375l5.44922 5.44924c.1875.2109.1875.4101 0 .5976l-.70313.7032z"></path></svg>
+            <span>Office Chairs</span>
+          </button>
+          <div class="m-megamenu-mobile__block">
+            
+                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-product-card.css?v=37150631581746463101711609292" rel="stylesheet" type="text/css" media="all">
+                        <div class="m-megamenu-mobile__products m-mixed-layout m-mixed-layout--mobile-scroll" style="--column-gap: 16px" data-id="9a8898d3-666a-4417-ba56-a794af6137a5"><div class="m-mixed-layout__inner">
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c104-executive-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227&amp;width=165 165w,//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227&amp;width=360 360w,//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227&amp;width=533 533w,//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227&amp;width=720 720w,//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227&amp;width=940 940w,//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?v=1714303227 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Desire C104 Executive Office Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Desire-C104-Executive-Office-Chair-CellBell-1653544410_2024-04-28T11_01_11.590Z.png?crop=center&height=2048&v=1714303227&width=2048" alt="Desire C104 Executive Office Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c104-executive-chair" class="m-product-card__name">
+                                          Desire C104 Executive Office Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 3,599.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 3,599.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 9,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c100-executive-high-back-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=165 165w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=360 360w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=533 533w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=720 720w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=940 940w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/018_2.png?v=1714818539 1100w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Taurus C100 Executive Office Chair CellBell" loading="lazy" class="" width="1100" height="1100">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/018_2.png?crop=center&height=2048&v=1714818539&width=2048" alt="Taurus C100 Executive Office Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c100-executive-high-back-chair" class="m-product-card__name">
+                                          Taurus C100 Executive Office Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,299.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,299.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 11,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/capree-c190-executive-mesh-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=165 165w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=360 360w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=533 533w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=720 720w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=940 940w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/CellBell_1.png?v=1714827323 1404w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Capree C190 Mesh Office Executive Chair CellBell" loading="lazy" class="" width="1404" height="1404">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/CellBell_1.png?crop=center&height=2048&v=1714827323&width=2048" alt="Capree C190 Mesh Office Executive Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/capree-c190-executive-mesh-chair" class="m-product-card__name">
+                                          Capree C190 Mesh Office Executive Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 8,099.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 8,099.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 29,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/cellbell-c190-berlin-ergonomic-mesh-home-office-chair-imported-pneumatic-hydraulic-2d-padded-adjustable-arm-rest-high-back-blue-white">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=165 165w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=360 360w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=533 533w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=720 720w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=940 940w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462&amp;width=1500 1500w,//cellbell.in/cdn/shop/files/BerlinC190.png?v=1714643462 1500w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="CELLBELL C190 Berlin Ergonomic Mesh Executive  Office &amp; Home Chair CellBell" loading="lazy" class="" width="1500" height="1500">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/BerlinC190.png?crop=center&height=2048&v=1714643462&width=2048" alt="CELLBELL C190 Berlin Ergonomic Mesh Executive  Office &amp; Home Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/cellbell-c190-berlin-ergonomic-mesh-home-office-chair-imported-pneumatic-hydraulic-2d-padded-adjustable-arm-rest-high-back-blue-white" class="m-product-card__name">
+                                          CELLBELL C190 Berlin Ergonomic Mesh Executive  Office &amp; Home Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,499.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,499.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 19,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c51-boss-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048&amp;width=165 165w,//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048&amp;width=360 360w,//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048&amp;width=533 533w,//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048&amp;width=720 720w,//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048&amp;width=940 940w,//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?v=1714649048 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Franco C51 Boss Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Franco-C51-Boss-Chair-CellBell-1654760570_2.png?crop=center&height=2048&v=1714649048&width=2048" alt="Franco C51 Boss Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c51-boss-chair" class="m-product-card__name">
+                                          Franco C51 Boss Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 14,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c106-executive-chair-black">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125&amp;width=165 165w,//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125&amp;width=360 360w,//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125&amp;width=533 533w,//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125&amp;width=720 720w,//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125&amp;width=940 940w,//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?v=1714980125 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Neso C106 Executive Chair [Black] CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Neso-C106-Executive-Chair-_2024-05-06T07_21_36.667Z.png?crop=center&height=2048&v=1714980125&width=2048" alt="Neso C106 Executive Chair [Black] CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c106-executive-chair-black" class="m-product-card__name">
+                                          Neso C106 Executive Chair [Black]
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 4,099.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 4,099.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 9,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c54-boss-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174&amp;width=165 165w,//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174&amp;width=360 360w,//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174&amp;width=533 533w,//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174&amp;width=720 720w,//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174&amp;width=940 940w,//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?v=1715085174 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Enrico C54 Boss Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Enrico-C54-Boss-Chair-CellBell-1653545882.png?crop=center&height=2048&v=1715085174&width=2048" alt="Enrico C54 Boss Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c54-boss-chair" class="m-product-card__name">
+                                          Enrico C54 Boss Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 14,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/leo-c110-jazz-mesh-office-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=165 165w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=360 360w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=533 533w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=720 720w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=940 940w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?v=1714740364 1447w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Leo C110 (JAZZ) Mesh Executive Office Chair CellBell" loading="lazy" class="" width="1447" height="1447">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/1157f8d8-b944-4c11-8ac6-eac74fdd6c3f_5.png?crop=center&height=2048&v=1714740364&width=2048" alt="Leo C110 (JAZZ) Mesh Executive Office Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/leo-c110-jazz-mesh-office-chair" class="m-product-card__name">
+                                          Leo C110 (JAZZ) Mesh Executive Office Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,799.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,799.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 11,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c102-boss-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216&amp;width=165 165w,//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216&amp;width=360 360w,//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216&amp;width=533 533w,//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216&amp;width=720 720w,//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216&amp;width=940 940w,//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?v=1715080216 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Watson C102 Boss Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Watson-C102-Boss-Chair-CellBell-1653545373_5.png?crop=center&height=2048&v=1715080216&width=2048" alt="Watson C102 Boss Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c102-boss-chair" class="m-product-card__name">
+                                          Watson C102 Boss Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale  m-price--no-compare" data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 7,999.00</span></span>
+        </span></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c83-executive-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967&amp;width=165 165w,//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967&amp;width=360 360w,//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967&amp;width=533 533w,//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967&amp;width=720 720w,//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967&amp;width=940 940w,//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?v=1714992967 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Callisto C83 Executive Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Callisto-C83-Executive-Chair-CellBell-1653544229_3.png?crop=center&height=2048&v=1714992967&width=2048" alt="Callisto C83 Executive Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c83-executive-chair" class="m-product-card__name">
+                                          Callisto C83 Executive Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 3,599.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 3,599.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 9,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c160-mesh-mid-back-office-chair-black">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image " style="--aspect-ratio: 0.9990909090909091;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=165 165w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=360 360w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=533 533w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=720 720w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=940 940w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/038_4.png?v=1715064457 1099w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Aries C160 Mesh Office Chair [BLACK] CellBell" loading="lazy" class="" width="1099" height="1100">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/038_4.png?crop=center&height=2048&v=1715064457&width=2048" alt="Aries C160 Mesh Office Chair [BLACK] CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c160-mesh-mid-back-office-chair-black" class="m-product-card__name">
+                                          Aries C160 Mesh Office Chair [BLACK]
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 6,999.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 6,999.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 11,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/c103-executive-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image " style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981&amp;width=165 165w,//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981&amp;width=360 360w,//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981&amp;width=533 533w,//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981&amp;width=720 720w,//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981&amp;width=940 940w,//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?v=1715063981 1000w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Tyto C103 Executive Chair CellBell" loading="lazy" class="" width="1000" height="1000">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Tyto-C103-Executive-Chair-CellBell-1653544676_4.png?crop=center&height=2048&v=1715063981&width=2048" alt="Tyto C103 Executive Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/c103-executive-chair" class="m-product-card__name">
+                                          Tyto C103 Executive Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 4,099.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 4,099.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 9,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                          </div>
+                        </div>
+                      
+          </div>
+        </div>
+      </div>
+    
+  </li>
+            
+          
+            
+            
+              
+              
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="#">
+    <a href="#" class="m-menu-mobile__link">
+      Pro Seating
+    </a>
+    
+    
+  </li>
+            
+          
+            
+            
+              
+              
+              
+            
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="/collections/gaming-chairs">
+    <a href="/collections/gaming-chairs" class="m-menu-mobile__link" data-toggle-submenu="1">
+      Gaming Chairs
+    </a>
+    
+      <span class="m-menu-mobile__toggle-button" data-toggle-submenu="1">
+        <svg fill="currentColor" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg>
+      </span>
+    
+    
+      <div class="m-megamenu-mobile m-megamenu-mobile--level-1">
+        <div class="m-megamenu-mobile__wrapper">
+          <button class="m-menu-mobile__back-button" data-level="1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17"><path fill="currentColor" d="M8.12109 15.9141c-.21093.1875-.41015.1875-.59765 0L.175781 8.53125c-.210937-.1875-.210937-.375 0-.5625L7.52344.585938c.1875-.1875.38672-.1875.59765 0l.70313.703122c.1875.1875.1875.38672 0 .59766L3.375 7.33594h11.9883c.2812 0 .4219.14062.4219.42187v.98438c0 .28125-.1407.42187-.4219.42187H3.375l5.44922 5.44924c.1875.2109.1875.4101 0 .5976l-.70313.7032z"></path></svg>
+            <span>Gaming Chairs</span>
+          </button>
+          <div class="m-megamenu-mobile__block">
+            
+                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-product-card.css?v=37150631581746463101711609292" rel="stylesheet" type="text/css" media="all">
+                        <div class="m-megamenu-mobile__products m-mixed-layout m-mixed-layout--mobile-scroll" style="--column-gap: 16px" data-id="fde67e85-f741-4bd0-81e8-12ea80e8f020"><div class="m-mixed-layout__inner">
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/transformer-series-gaming-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 0.9989517819706499;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=165 165w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=360 360w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=533 533w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=720 720w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=940 940w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=1500 1500w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033&amp;width=1780 1780w,//cellbell.in/cdn/shop/files/Capture-8_2.png?v=1715172033 1906w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Transformer Series Gaming Chair CellBell" loading="lazy" class="" width="1906" height="1908">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/Capture-8_2.png?crop=center&height=2048&v=1715172033&width=2048" alt="Transformer Series Gaming Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/transformer-series-gaming-chair" class="m-product-card__name">
+                                          Transformer Series Gaming Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 11,999.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 11,999.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 29,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+  <div class="m:column m:w-1/2">
+                                <div class="m-product-card m-product-card--style-1">
+                                  <div class="m-product-card__media">
+                                    <a class="m-product-card__link m:block m:w-full" href="/products/transformer-x-series-gaming-chair">
+                                      <div class="m-product-card__main-image">
+                                        <responsive-image class="m-image m-image-loaded" style="--aspect-ratio: 1.0;">
+    
+    <img srcset="//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=165 165w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=360 360w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=533 533w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=720 720w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=940 940w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165&amp;width=1066 1066w,//cellbell.in/cdn/shop/files/120_2.png?v=1714741165 1100w" src="" sizes="(min-width: 1280px) 287px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="Transformer X-Series Best Gaming Chair CellBell" loading="lazy" class="" width="1100" height="1100">
+    
+    <noscript>
+      <img class="" loading="lazy" width="" height="" src="//cellbell.in/cdn/shop/files/120_2.png?crop=center&height=2048&v=1714741165&width=2048" alt="Transformer X-Series Best Gaming Chair CellBell">
+    </noscript>
+  </responsive-image>
+  
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="m-product-card__content m:text-left">
+                                    <div class="m-product-card__info">
+                                      <h3 class="m-product-card__title">
+                                        <a href="/products/transformer-x-series-gaming-chair" class="m-product-card__name">
+                                          Transformer X-Series Best Gaming Chair
+                                        </a>
+                                      </h3>
+                                      <div class="m-product-card__price">
+                                        <link href="//cellbell.in/cdn/shop/t/87/assets/component-price.css?v=117965033892810160661711609292" rel="stylesheet" type="text/css" media="all">
+  <div class="m-price m:inline-flex m:items-center m:flex-wrap m-price--sold-out  m-price--on-sale " data-sale-badge-type="percentage">
+  
+    <div class="m-price__regular">
+      <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+      <span class="m-price-item m-price-item--regular ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 17,599.00</span></span>
+        </span>
+    </div>
+    <div class="m-price__sale">
+      <span class="m:visually-hidden m:visually-hidden--inline">Sale price</span>
+      <span class="m-price-item m-price-item--sale m-price-item--last ">
+          <span class="dualPrice"><span class="finalPrice">Rs. 17,599.00</span></span>
+        </span>
+        <span class="m:visually-hidden m:visually-hidden--inline">Regular price</span>
+        <s class="m-price-item m-price-item--regular">
+          
+            <span class="dualPrice"><span class="finalPrice">Rs. 29,999.00</span></span>
+          
+        </s></div>
+    <div class="m-price__unit-wrapper m:hidden">
+      <span class="m:visually-hidden">Unit price</span>
+      <div class="m-price__unit"><span data-unit-price=""></span><span aria-hidden="true">/</span><span data-unit-price-base-unit=""></span></div>
+    </div>
+  
+    
+  </div>
+  
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                          </div>
+                        </div>
+                      
+          </div>
+        </div>
+      </div>
+    
+  </li>
+            
+          
+            
+            
+              
+              
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="#">
+    <a href="#" class="m-menu-mobile__link">
+      Reels
+    </a>
+    
+    
+  </li>
+            
+          
+            
+            
+              
+              
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="/pages/bulk-orders">
+    <a href="/pages/bulk-orders" class="m-menu-mobile__link">
+      Bulk
+    </a>
+    
+    
+  </li>
+            
+          
+            
+            
+              
+              
+            
+              
+  
+  <li class="m-menu-mobile__item m-menu-mobile__item--no-submenu" data-url="/pages/contact">
+    <a href="/pages/contact" class="m-menu-mobile__link">
+      Contact us
+    </a>
+    
+    
+  </li>
+            
+          
+        </ul>
+        <div class="m-menu-customer">
+    
+      <div class="m-menu-customer__wrapper">
+        <div class="m-menu-customer__label">My Account</div>
+        
+          <a href="/account/login" class="m-button m-button--primary m-signin-button" data-tab="signin">
+            Log in
+          </a>
+          <a href="/account/register" class="m-button m-button--secondary m-register-button" data-tab="register">
+            Register
+          </a>
+        
+      </div>
+    
+    <div class="m-menu-customer__language-currency"></div>
+  </div>
+  
+      </div>
+    </div>
+  </div>
